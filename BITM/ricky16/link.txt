@@ -1,0 +1,27 @@
+https://www.php-fig.org/
+
+https://getcomposer.org/
+
+
+
+                                                                                                                                        
+C:\laragon\www\OOP-T                                                                                                                    
+λ cd ..                                                                                                                                 
+                                                                                                                                        
+C:\laragon\www                                                                                                                          
+λ cd Ricky                                                                                                                              
+                                                                                                                                        
+C:\laragon\www\Ricky                                                                                                                    
+λ cd seip                                                                                                                               
+                                                                                                                                        
+C:\laragon\www\Ricky\seip                                                                                                               
+λ composer update                                                                                                                       
+Composer could not find a composer.json file in C:\laragon\www\Ricky\seip                                                               
+To initialize a project, please create a composer.json file as described in the https://getcomposer.org/ "Getting Started" section     
+
+C:\laragon\www\Ricky\seip
+λ composer
+
+
+C:\laragon\www\Ricky\seip
+λ composer update 

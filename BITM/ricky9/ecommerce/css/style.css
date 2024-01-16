@@ -1,0 +1,201 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Style for Header*/
+header .header-top .row .col-sm-3 .row .col .wc-message{
+    text-align: left;
+    display: inline-block;
+    margin: 0 14px;
+    font-size: 0.65rem;
+    color: #707070;
+    vertical-align: top;
+    padding: 10px 0;
+    text-transform: none;
+}
+
+header .header-top .row .col-sm-5 .nav .nav-link{
+    display: inline-block;
+    text-decoration: none;
+    transition: none;
+    color: #858585;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 11px 10px 11px 10px;
+    border-left: 1px solid #efefef;
+}
+header .header-top .col-sm-3 .col .form-select{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    -moz-padding-start: 0;
+    font-size: 0.7rem;
+    color: #858585;
+    background-color: #fff;
+    background-image: none;
+    background-repeat: unset;
+    background-position: unset;
+    background-size: unset;
+    border: none;
+    border-radius: 0;
+    transition: none;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: normal;
+
+}
+header .header-top .col-sm-5 .nav .nav-link{
+    display: inline-block;
+    text-decoration: none;
+    transition: none;
+    color: #858585;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 11px 10px 11px 10px;
+    border-left: 1px solid #efefef;
+}
+
+header .middle-part .row .col-sm-8 .row .col-sm-5 .nav-link {
+    display: block;
+    text-decoration: none;
+    transition: none;
+    padding: 0.6rem 0.42rem 0.45rem 0.42rem;
+    font-size: 0.6rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    height: 15px;
+    bottom: -1px;
+    z-index: 1000;
+    position: relative;
+    color: #858585;
+    border-top: solid 1px transparent;
+    border-left: solid 1px transparent;
+    border-right: solid 1px transparent;
+}
+
+header .middle-part .row .col-sm-8 .row .col-sm-4 .form-control{
+    display: block;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #f6f6f6;;
+    background-clip: padding-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    transition: none;
+    margin: 0;
+    width: 80%;
+    font-size: 0.8rem;
+    height: 38px;
+    color: #999;
+    padding: 0 20px;
+    outline: none;
+    border: 1px #d7d7d7 solid;
+
+}
+header .middle-part .row .col-sm-8 .row .col-sm-4 input[type="placeholder"]{
+    color: #999;
+}
+
+
+
+
+
+header .bg-light{
+    background-color: #4a4a4a !important;
+}
+header .navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 0.67rem;
+    letter-spacing: 0.07rem;
+    padding-right: 0.55rem;
+    padding-left: 0.55rem;
+}
+header .navbar-light .navbar-nav .nav-link.active{
+    color: #bea285;
+}
+header .navbar-light .navbar-nav .nav-link:hover{
+    color: #bea285;
+}
+
+/*Style for Best Sellers*/
+
+#best-sellers .col .card .card-body .card-title a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    font-family: 'PT Sans', sans-serif;
+    color: #000;
+}
+
+#best-sellers .col .card .card-body .card-title a:hover{
+    color: #f28083;
+}
+
+#best-sellers .col .card .card-body .card-text i{
+    color: #ccc;
+    font-size: 0.6rem;
+}
+#best-sellers .col .card .card-body .price{
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #000;
+}
+
+#best-sellers .col .card .card-body .price del{
+    color: #999;
+    font-size: 0.85rem;
+    font-weight: normal;
+    margin-right: 1rem;
+}
+#best-sellers .col .card .card-body .btn-light{
+    background-color: #fff;
+    color: #666;
+    display: inline-block;
+    font-size: 0.7rem;;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: normal;
+    padding: 8px 12px;
+    text-transform: uppercase;
+    border: 1px #d1d1d1 solid;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 0;
+}
+
+#best-sellers .col .card .card-body .btn-light:hover{
+    background-color: #ef4749;
+    border: 1px solid #ef4749;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/*Media queries*/
+@media (max-width: 575.98px) {
+
+    html{
+
+    }
+
+}

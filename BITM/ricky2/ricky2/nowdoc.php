@@ -1,0 +1,4 @@
+<?php
+$str=BASIS;
+
+BASIS;

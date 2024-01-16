@@ -1,0 +1,84 @@
+@import url(bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,700;1,800&family=Poppins:wght@200;300&display=swap');
+*{
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header .bg-light {
+
+    background-color: #fff;
+}
+header span.logo-text{
+    color: #1e1e27;
+    font-weight: bold;
+}
+header .logo-next-text{
+    color: #fe4c50;
+    font-weight: bold;
+}
+header .navbar-light .navbar-text {
+    margin-right:5rem;
+    color: #333;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #1e1e27;
+    letter-spacing: 0.12rem;
+}
+.myCarousel {
+    position: relative;
+    width: 120%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Make the image responsive */
+.myCarousel img {
+
+    height: 100%;
+}
+
+
+.slide-text {
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+
+
+}
+.slide-text .centered{
+font-size: 70px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #f44336;
+    font-size: 13px;
+    color: #fff;
+}
+.btn:hover {
+    background-color:  palevioletred;
+    color: white;
+}
+.card-box .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
